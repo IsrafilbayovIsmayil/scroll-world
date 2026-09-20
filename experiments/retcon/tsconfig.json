@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "lib": ["ES2022"],
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+    "noImplicitOverride": true,
+    "noEmit": true,
+    "skipLibCheck": true,
+    "types": []
+  },
+  "//": "tests/ imports bun:test and is typechecked by `bun test`, not tsc.",
+  "include": ["src/**/*.ts", "demo/**/*.ts", "types/**/*.d.ts"]
+}

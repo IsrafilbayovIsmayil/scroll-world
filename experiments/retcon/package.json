@@ -1,0 +1,13 @@
+{
+  "name": "@experiments/retcon",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "A runtime whose past is editable and whose side effects are reconciled instead of replayed.",
+  "main": "src/index.ts",
+  "scripts": {
+    "demo": "bun demo/payroll.ts",
+    "test": "bun test",
+    "typecheck": "tsc --noEmit"
+  }
+}
